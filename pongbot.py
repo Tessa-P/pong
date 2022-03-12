@@ -1,8 +1,3 @@
-# figure out where the ball is
-
-# step one to see if it works, just track the ball
-
-
 def track_ball(ball, paddle, HEIGHT):
     if ball.x_vel < 0: # ball is moving left
         if HEIGHT / 2 >  paddle.y + paddle.height / 2:
